@@ -170,7 +170,7 @@ border: 1px solid #000000;
 margin-left: 12px;
 }
 
-#about-us{
+#gray{
     font-weight: 800;
 font-size: 72px;
 line-height: 98px;
@@ -261,4 +261,63 @@ font-size: 24px;
 line-height: 33px;
 
 color: #000000;
+}
+
+/* next section */
+
+#fourth{
+    margin-left: 100px;
+}
+
+#flex-5{
+    display: flex;
+    align-items: center;
+    margin-bottom: 64px;
+}
+
+#line-2{
+    width: 65px;
+height: 0px;
+margin-left: 16px;
+border: 1px solid #000000;
+}
+
+#grid{
+    display: grid;
+    width: 950px;
+    grid-template-rows: repeat(2, auto);
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    font-weight: 700;
+    row-gap: 24px;
+font-size: 24px;
+line-height: 33px;
+text-align: center;
+color: #000000;
+margin-bottom: 64px;
+}
+
+#num-1{
+    font-weight: 600;
+font-size: 96px;
+line-height: 131px;
+text-align: center;
+color: rgba(249, 189, 189, 0.25);
+position: absolute;
+margin-left: 17px;
+margin-top: 20px;
+}
+
+#button-2{
+    width: 212px;
+height: 50px;
+background-color: #DAA520;
+color: #FFFFFF;
+font-weight: 700;
+font-size: 16px;
+line-height: 22px;
+text-align: center;
+border: none;
+margin-left: 370px;
+margin-bottom: 120px;
 }
